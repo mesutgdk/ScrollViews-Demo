@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  UIScrollView Demo
+//  UICollectionView Demo
 //
-//  Created by Mesut Gedik on 27.05.2023.
+//  Created by Mesut Gedik on 28.05.2023.
 //
 
 import UIKit
@@ -25,4 +25,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 }
-
