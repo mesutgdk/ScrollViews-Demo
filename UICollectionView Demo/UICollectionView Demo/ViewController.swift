@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        collectionView.backgroundColor = .white
+        collectionView.backgroundColor = .systemGray6
         collectionView.dataSource = self
         collectionView.delegate = self
 
@@ -189,7 +189,8 @@ class MyHeaderClass: UICollectionReusableView {
         textLabel.textAlignment = .center
         textLabel.text = "Header"
         
-        backgroundColor = .systemBlue
+        backgroundColor = .systemYellow
+        
     }
     
     required init?(coder: NSCoder) {
@@ -219,7 +220,7 @@ class MyFooterClass: UICollectionReusableView {
         textLabel.textAlignment = .center
         textLabel.text = "Footer"
         
-        backgroundColor = .systemGreen
+        backgroundColor = .systemRed
     }
     
     required init?(coder: NSCoder) {
